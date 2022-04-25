@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 :root {
-  --primary-color: #22254b;
-  --secondary-color: #373b69;
+  --primary-color: #db0000;
+  --secondary-color: #000;
 }
 
 * {
@@ -11,7 +11,7 @@
 
 body {
   background-color: var(--primary-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
 }
 
@@ -33,7 +33,7 @@ header {
 }
 
 .search::placeholder {
-  color: #7378c5;
+  color: #fff;
 }
 
 .search:focus {
@@ -66,7 +66,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap:0.2rem;
+  gap: 0.2rem;
   padding: 0.5rem 1rem 1rem;
   letter-spacing: 0.5px;
 }
@@ -83,7 +83,7 @@ main {
 }
 
 .movie-info span.green {
-  color: lightgreen;
+  color: orange;
 }
 
 .movie-info span.orange {
@@ -91,7 +91,7 @@ main {
 }
 
 .movie-info span.red {
-  color: red;
+  color: orange;
 }
 
 .overview {
